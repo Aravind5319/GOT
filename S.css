@@ -1,0 +1,201 @@
+body{
+background-image:url('B1.jpg');
+background-repeat:no-repeat;
+background-size:1600px 800px;
+background-attachment:fixed;
+	 
+background-color:black;
+text-align:center;
+color:white;}
+
+
+#ageModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    background-image: url("TRY.jpg");
+    background-size:1500px 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background-color:transparent;
+    padding: 30px;
+    width: 60%;
+    border-radius: 10px;
+    font-family: 'Calibri (Body)';
+    color: white;
+    margin: auto;
+    margin-top: 230px;
+    font-size: xx-large;
+}
+
+input[type="number"] {
+    width: 20%;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-family: 'Calibri (Body)';
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-family:'Calibri (Body)';
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: grey;
+    color: white;
+}
+
+h2, p {
+    margin: 10px 0;
+    font-family: 'Calibri (Body)';
+    color: white;
+    text-align: center;
+}
+
+  
+#starks:hover{color:grey;}
+#starks{text-shadow:2px 2px 4px silver;}
+
+#beratheons:hover{color:yellow;}
+#beratheons{text-shadow:2px 2px 4px yellow;}
+
+#lanisters:hover{color:red;}
+#lanisters{text-shadow:2px 2px 4px red;}
+
+#targeriyans:hover{color:darkred;}
+#targeriyans{text-shadow:2px 2px 4px darkred;}
+ 
+#bastards:hover{color:blue;}
+#bastards{text-shadow:2px 2px 4px blue;}
+
+#starks1:hover{color:grey;}
+
+#beratheons1:hover{color:yellow;}
+
+#lanisters1:hover{color:red;}
+
+#targeriyans1:hover{color:darkred;}
+ 
+#bastards1:hover{color:blue;}
+
+
+.kingdoms{
+border:2px 
+white 
+double;
+margin:100px}
+
+.kingdoms:hover{color:black;}
+
+table,th.td{
+border:10px 
+solid 
+white;
+border-collapse:no-collapse;}
+
+
+.rate{
+background-color:white;
+margin:20px;}
+
+.line{
+font-size:50px; 
+color:black}
+
+
+#login{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 50px; 
+    background-color: grey;
+    font-size: 30px;
+  }
+
+
+.name{margin:15px}
+
+
+a:link{color:blue}
+a:visited{color:red}
+
+
+#nav{
+text-align:left;
+color:blue;}
+
+
+#head{
+background-color:green;
+height:100px;
+width:100%;
+text-transform:uppercase;
+padding-top:60px}
+
+#box1{
+background-color:red;
+height:100px;
+width:33.3%;
+float:left}
+
+#box2{
+background-color:blue;
+height:100px;
+width:33.3%;
+float:left}
+
+#box3{
+background-color:lightgreen;
+height:100px;
+width:33.3%;
+float:left}
+
+#box4{
+background-color:yellow;
+height:100px;
+width:33.3%;
+float:left}
+
+#box5{
+background-color:lightblue;
+height:100px;
+width:33.3%;
+float:left}	  
+
+#box6{
+background-color:darkblue;
+height:100px;
+width:33.3%;
+float:left}
+
+#footer{
+background-color:green;
+height:100px;
+width:100%;
+float:left;
+text-transform:uppercase;
+padding-top:60px}
+
+
+h1::first-letter{
+color:red;
+font-size:100px}
+
